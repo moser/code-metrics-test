@@ -1,1 +1,3 @@
-# code-metrics-test
+# Code metrics test
+
+Check code metrics services.
