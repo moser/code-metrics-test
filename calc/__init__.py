@@ -24,3 +24,5 @@ def request_fun(req: f.Request) -> f.Request:
         return []
     return req
 
+def x():
+    return 1
