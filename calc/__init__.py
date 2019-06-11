@@ -22,6 +22,8 @@ def typed_thing(a: int) -> typing.List[str]:
 def request_fun(req: f.Request) -> f.Request:
     if 1:
         return []
+    elif 2:
+        return [22]
     return req
 
 def x():
