@@ -27,4 +27,5 @@ def request_fun(req: f.Request) -> f.Request:
     return req
 
 def x():
+    print(app.foo)
     return 1
