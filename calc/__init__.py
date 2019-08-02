@@ -7,7 +7,7 @@ app = f.Flask("calc")
 
 @app.route("/")
 def index():
-    print(f.curent_user)
+    print(f.current_user)
     numpy.non_existing_thing()
     typed_thing('not an integer')
     typed_thing(1.0)  # also not an integer
