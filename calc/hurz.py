@@ -25,3 +25,5 @@ class Bar:
         print(self.y)
         xxx(self)
 
+def x():
+    2
