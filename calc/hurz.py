@@ -23,3 +23,5 @@ class Bar:
 
     def bark(self):
         print(self.y)
+        # not let's go for an outright syntax error
+        print self.x
