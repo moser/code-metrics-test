@@ -2,4 +2,4 @@ flask
 flask-login
 numpy
 msgpack
-
+cairocffi>=1.1
