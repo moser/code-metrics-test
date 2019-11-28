@@ -18,17 +18,20 @@ class Foo:
     def long_long_name_that_is_sooooooooooooo_long_that_it_should_break_layouts_everywhere_with_ease_and_while_enjoying_it(self):
         pass
 
-def i_am_new():
-    print(100)
-
 class Bar:
-    def __init__(self):
+    def __init__(self, foo):
         self.x = 1
+        print(foo)
+
+    def newnewnew(self):
+        print(1)
 
     def bark(self):
         print(self.y)
         xxx(self)
-        print(1)
 
 def x():
     2
+
+def another():
+    pass
