@@ -34,4 +34,5 @@ def x():
     2
 
 def another():
+    print(1)
     pass
