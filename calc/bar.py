@@ -7,4 +7,4 @@ def main():
 def xxx(a):
     if a > 0:
         return 1
-    return a * b + 1
+    return a * b + 1 + 2
