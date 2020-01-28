@@ -30,3 +30,6 @@ def request_fun(req: f.Request) -> f.Request:
 def x():
     print(app.foo)
     return 1
+
+def y():
+    print("y")
