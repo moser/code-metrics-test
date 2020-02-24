@@ -16,7 +16,8 @@ class Foo:
         return self.x._private_stuff
     
     def long_long_name_that_is_sooooooooooooo_long_that_it_should_break_layouts_everywhere_with_ease_and_while_enjoying_it(self):
-        pass
+        return 1
+        print(1 * a)
 
 class Bar:
     def __init__(self):
