@@ -11,10 +11,10 @@ def xxx(a):
 
 
 class Huey(object):
-    def __init___(self, **kw):
+    def __init__(self, **kw):
         self.__init__old(**kw)
         
-    def __init___old(self, name='huey', results=True, store_none=False, utc=True,
+    def __init__old(self, name='huey', results=True, store_none=False, utc=True,
                  immediate=False, serializer=None, compression=False,
                  use_zlib=False, immediate_use_memory=True, always_eager=None,
                  storage_class=None, **storage_kwargs):
