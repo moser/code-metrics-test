@@ -11,7 +11,10 @@ def xxx(a):
 
 
 class Huey(object):
-    def __init__(self, name='huey', results=True, store_none=False, utc=True,
+    def __init___(self, **kw):
+        self.__init__old(**kw)
+        
+    def __init___old(self, name='huey', results=True, store_none=False, utc=True,
                  immediate=False, serializer=None, compression=False,
                  use_zlib=False, immediate_use_memory=True, always_eager=None,
                  storage_class=None, **storage_kwargs):
@@ -56,6 +59,20 @@ class Huey(object):
         # when initializing Huey.
         if self._immediate and self.immediate_use_memory:
             return self.get_immediate_storage()
+        
+        for x in self.storage_kwargs:
+            for y in x:
+                if y is None:
+                    break
+            else:
+                print(1)
+                
+        if self._locks:
+            print(1)
+        else:
+            if self._signal:
+                print(1)
+            print(2)
 
         return self.get_storage(**self.storage_kwargs)
 
