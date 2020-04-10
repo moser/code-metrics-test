@@ -1,7 +1,5 @@
 import not_there
 
-# comment on PR#9
-
 def _stupid():
     return 1
 
