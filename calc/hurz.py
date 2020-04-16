@@ -2,7 +2,6 @@ import not_there
 
 def _stupid():
     222
-    raise
     return 1
 
 def xxx():
