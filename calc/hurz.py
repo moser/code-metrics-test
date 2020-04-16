@@ -1,7 +1,6 @@
 import not_there
 
 def _stupid():
-    222
     return 1
 
 def xxx():
