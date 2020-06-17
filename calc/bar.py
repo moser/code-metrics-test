@@ -49,7 +49,7 @@ class Huey(object):
         self._registry = Registry()
         self._signal = S.Signal()
 
-    def create_storage(self):
+    def create_storage_renamed(self):
         # When using immediate mode, the default behavior is to use an
         # in-memory broker rather than a live one like Redis or Sqlite, however
         # this can be overridden by specifying "immediate_use_memory=False"
@@ -58,6 +58,3 @@ class Huey(object):
             return self.get_immediate_storage()
 
         return self.get_storage(**self.storage_kwargs)
-
-    def get_immediate_storage(self):
-        return MemoryStorage(self.name)
