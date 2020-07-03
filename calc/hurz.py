@@ -30,6 +30,19 @@ class Bar:
     def bark(self):
         print(self.y)
         xxx(self)
+        
+        
+class Bar2:
+    def __init__(self, foo):
+        self.x = 1
+        print(foo)
+
+    def newnewnew(self):
+        print(1)
+
+    def bark(self):
+        print(self.y)
+        xxx(self)
 
 def x():
     2
