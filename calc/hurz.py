@@ -49,3 +49,33 @@ def x():
 
 def another():
     pass
+
+def original(a,b):
+    print(a, b)
+    res = []
+    for x in a:
+        for y in b:
+            print("hurz", x, y)
+            res.append(x * y ** 2)
+    print("res", res)
+    return res
+
+def dup1(a,b):
+    print(a, b)
+    res = []
+    for x in a:
+        for y in b:
+            print("hurz", x, y)
+            res.append(x * y ** 2)
+    print("res", res)
+    return res
+
+def dup2(a,b):
+    print(a, b)
+    res = []
+    for x in a:
+        for y in b:
+            print("xxx", x, y)
+            res.append(x * y ** 20)
+    print("lalla", res)
+    return res
