@@ -78,6 +78,3 @@ class Huey(object):
 
     def get_immediate_storage(self):
         return MemoryStorage(self.name)
-
-    
-    
