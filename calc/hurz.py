@@ -79,3 +79,14 @@ def dup2(a,b):
             res.append(x * y ** 20)
     print("lalla", res)
     return res
+
+
+
+class Parent:
+    def meth(self, arg):
+        pass
+    
+class Child(Parent):
+    def meth(self, arg, arg2):
+        pass
+        
