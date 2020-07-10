@@ -83,7 +83,7 @@ def dup2(a,b):
 
 
 class Parent:
-    def meth(self, arg):
+    def meth(self, arg, org=123, foo=""):
         pass
     
 class Child(Parent):
