@@ -89,4 +89,8 @@ class Parent:
 class Child(Parent):
     def meth(self, arg, arg2):
         pass
+    
+    
+class Goo:
+    pass
         
