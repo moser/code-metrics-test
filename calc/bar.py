@@ -5,6 +5,9 @@ def main():
     return map(lambda x: x.id, result)
 
 def xxx(a):
+    """
+    Some docstr
+    """
     if a > 0:
         return 1
     return a * basdfadfs
