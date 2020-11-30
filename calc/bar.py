@@ -15,11 +15,6 @@ class Huey(object):
                  immediate=False, serializer=None, compression=False,
                  use_zlib=False, immediate_use_memory=True, always_eager=None,
                  storage_class=None, **storage_kwargs):
-        if always_eager is not None:
-            warnings.warn('"always_eager" parameter is deprecated, use '
-                          '"immediate" instead', DeprecationWarning)
-            immediate = always_eager
-
         invalid = [p for p in self._deprecated_params
                    if storage_kwargs.pop(p, None) is not None]
         if invalid:
