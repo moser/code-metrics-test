@@ -90,6 +90,9 @@ class Child(Parent):
     def meth(self, arg, arg2):
         pass
     
+def foo_again():
+    pass
+    
     
 class Goo:
     pass
